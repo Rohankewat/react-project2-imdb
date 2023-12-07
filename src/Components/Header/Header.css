@@ -1,0 +1,17 @@
+.header_icon {
+    width: 70px;
+    margin-left: 20px;
+}
+
+span {
+    position: relative;
+    padding: 25px;
+    color: white;
+    bottom: 12px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.span1:hover {
+    color: red;
+}

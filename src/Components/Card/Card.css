@@ -1,0 +1,65 @@
+.cards img {
+    height: 220px;
+    width: 150px;
+    border-radius: 14px;
+    border: 1px solid rgb(74, 73, 73);
+}
+
+.cards {
+    margin-left: 30px;
+    width: 122px;
+    height: 200px;
+    float: left;
+    text-align: center;
+    padding: 3px;
+    margin-top: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.movie_tit {
+    position: relative;
+    bottom: 125px;
+    font-size: 18px;
+    color: ghostwhite;
+}
+
+.movie_release {
+    position: relative;
+    bottom: 125px;
+    font-size: 12px;
+    right: 10px;
+    color: ghostwhite;
+}
+
+.movie_vote {
+    position: relative;
+    bottom: 139px;
+    font-size: 12px;
+    left: 50px;
+    color: ghostwhite;
+}
+
+.movie_discrip {
+    position: relative;
+    bottom: 138px;
+    font-size: 10px;
+    left: 12px;
+    color: ghostwhite;
+}
+
+.card_overlay {
+    opacity: 0;
+}
+
+.card_overlay:hover {
+    opacity: 1;
+
+}
+
+.cards:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow: 3px 2px 20px rgb(120, 116, 116);
+    z-index: 1000;
+}

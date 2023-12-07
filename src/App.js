@@ -1,0 +1,29 @@
+import './App.css';
+import Header from './Components/Header/Header';
+import Home from './Pages/Home/Home';
+import MovieList from './Components/MovieList/MovieList';
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Movie from './Pages/MovieDetail/Movie';
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <Header />
+        <Routes>
+          <Route index element={<Home />} className="home"></Route>
+          <Route path="movie/:id" element={<Movie />}></Route>
+          <Route path="movies/:type" element={<MovieList />}></Route>
+          <Route path="/*" element={<h1>Error</h1>}></Route>
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;

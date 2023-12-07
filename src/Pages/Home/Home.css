@@ -1,0 +1,42 @@
+.poster {
+    width: 1330px;
+}
+
+.image_icon img {
+    margin-top: 5px;
+    width: 100%;
+    height: 500px;
+}
+
+
+.movie_title {
+    position: absolute;
+    left: 180px;
+    bottom: 250px;
+    font-size: 55px;
+    font-weight: bolder;
+    color: ghostwhite;
+}
+
+.movie_date {
+    position: absolute;
+    bottom: 210px;
+    left: 180px;
+    color: ghostwhite;
+
+}
+
+.rating {
+    position: absolute;
+    bottom: 210px;
+    left: 270px;
+    color: ghostwhite;
+}
+
+.discription {
+    position: relative;
+    width: 700px;
+    bottom: 90px;
+    font-size: 13px;
+    color: ghostwhite;
+}

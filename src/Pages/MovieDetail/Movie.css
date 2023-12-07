@@ -1,0 +1,97 @@
+.image_1 img {
+    position: absolute;
+    width: 70%;
+    height: 430px;
+    top: 55px;
+    left: 200px;
+    box-shadow: 1px 2px 6px 1px rgb(48, 46, 46);
+}
+
+.left_content img {
+    position: absolute;
+    width: 200px;
+    left: 230px;
+    bottom: 50px;
+}
+
+.movie_ti {
+    position: absolute;
+    left: 460px;
+    bottom: 260px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: ghostwhite;
+}
+
+.tagline {
+    position: absolute;
+    left: 460px;
+    font-size: 15px;
+    bottom: 245px;
+    font-family: sans-serif;
+    color: ghostwhite;
+}
+
+.vote {
+    position: absolute;
+    left: 460px;
+    font-size: 15px;
+    bottom: 230px;
+    font-family: sans-serif;
+    color: ghostwhite;
+}
+
+.popularity {
+    position: absolute;
+    left: 460px;
+    font-size: 15px;
+    bottom: 210px;
+    font-family: sans-serif;
+    color: ghostwhite;
+}
+
+.release_date {
+    position: absolute;
+    left: 460px;
+    font-size: 15px;
+    bottom: 190px;
+    font-family: sans-serif;
+    color: ghostwhite;
+}
+
+.status {
+    position: absolute;
+    left: 460px;
+    font-size: 15px;
+    bottom: 160px;
+    font-family: sans-serif;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 12px;
+    color: ghostwhite;
+}
+
+.overview h4 {
+    position: absolute;
+    left: 450px;
+    letter-spacing: 1px;
+    color: ghostwhite;
+}
+
+.h4 {
+    position: absolute;
+    top: 490px;
+    left: 450px;
+    letter-spacing: 1px;
+    color: ghostwhite;
+}
+
+.overview {
+    position: absolute;
+    font-size: 11px;
+    top: 550px;
+    width: 720px;
+    left: 440px;
+    color: ghostwhite;
+}
